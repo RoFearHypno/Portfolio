@@ -1,4 +1,49 @@
-.helloworld{
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 1%;
+    font-size: 34px;
+}
+.header_desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-left: 1.5%;
+    font-size: 26px;
+}
+.header_tip{
+    font-size: 22px;
+    font-weight: 150;
+    margin-left: 1.5%;
+    text-indent: 1%;
+}
+.header_tip_small{
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 1.5%;
+}
+.half_divider{
+    border: none;
+    border-top: 3px solid #333333;
+    width: 45%;
+    margin: 1%;
+}
+.half_divider_small{
+    border: none;
+    border-top: 1px solid #333333;
+    width: 40%;
+    margin: 1%;
+}
+.feedback_button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.feedback_text {
+    display: none;
+    position: fixed;
+    top: 25px;
+    right: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-size: 12px;
+    color: #6c2fc3;
 }
