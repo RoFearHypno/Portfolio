@@ -6,6 +6,56 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="helloworld">Hello, world!</h1>
+    <h1 class="header">FearHypno's Portfolio!!</h1>
+    <h1 class="header_desc">Well, who the hell is FearHypno?</h1>
+    <h1 class="header_tip">
+        He's a developer on Roblox Studio!<br>
+        He refuses to use AI on any of his projects, and will not on yours!<br>
+        If you dislike him already, fuck off!
+    </h1>
+    <hr class="half_divider_small">
+    <h1 class="header_desc">Okay... well how long has he been developing?</h1>
+    <h1 class="header_tip">
+        Officially <b>four</b> years, but he is approaching five.<br>
+        He's a self-taught scriper and doesn't just mindlessly prompt like most people!<br>
+        He's also a self-sufficient developer. He can do most things on his own!
+    </h1>
+    <hr class="half_divider_small">
+    <h1 class="header_desc">And his take on Artificial Intelligence in game development?</h1>
+    <h1 class="header_tip">
+        Although I refuse to use it myself, I do think there are some cases where it is reasonable.<br>
+        I believe there is an utter difference between being assisted by AI and generating with AI.<br>
+        Assisted by AI = YOU do most of the work but your "friend" helps out every now and then.<br>
+        I accept this.<br>
+        Now, generating with AI = AI does most of work and you might do some of the work.<br>
+        I don't accept this.
+    </h1>
+    <hr class="half_divider_small">
+    <h1 class="header_desc">How do I buy you?</h1>
+    <h1 class="header_tip">
+        Well you can't buy me, but you can buy my services.<br>
+        Most of the time I do stuff for free, but prices are negotionable.<br>
+        If I do work for free, remember, it's a volunteer service.
+    </h1>
+    <hr class="half_divider">
+    <h1 class="header_desc">Still here?</h1>
+    <h1 class="header_tip">Contact me: fearhypno@gmail.com</h1>
+    <h1 class="header_tip">
+        <a href="https://youtube.com/playlist?list=PLf_MDpzlvAwMNghqqGwYb9Q6239VOdJai&si=VWd705HgWpj10EMc">
+            Visit his work! (playlist)
+        </a>
+    </h1>
+
+    <button onclick="show_text()" class="feedback_button">Give feedback</button>
+    <h1 class="feedback_text" id="feedback_text">You thought this actually did shit.</h1>
+
+    <script>
+        function show_text() {
+            document.getElementById("feedback_text").style.display = "block";
+            setTimeout(() => {
+                document.getElementById("feedback_text").style.display = "none";
+            }, 2500);
+        }
+    </script>
 </body>
 </html>
